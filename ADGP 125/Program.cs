@@ -6,6 +6,12 @@ using System.Windows.Forms;
 
 namespace ADGP_125
 {
+    /// <summary>
+    /// XML
+    /// SOAP
+    /// Design RPG game, UI
+    /// 
+    /// </summary>
     static class Program
     {
         /// <summary>
