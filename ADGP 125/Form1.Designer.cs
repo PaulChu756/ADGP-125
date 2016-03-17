@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.UserName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.createPlayerButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // UserName
             // 
-            this.textBox1.Location = new System.Drawing.Point(34, 78);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(130, 20);
-            this.textBox1.TabIndex = 3;
+            this.UserName.Location = new System.Drawing.Point(34, 78);
+            this.UserName.Name = "UserName";
+            this.UserName.Size = new System.Drawing.Size(130, 20);
+            this.UserName.TabIndex = 3;
             // 
             // labelName
             // 
@@ -66,18 +66,17 @@
             this.ClientSize = new System.Drawing.Size(187, 229);
             this.Controls.Add(this.createPlayerButton);
             this.Controls.Add(this.labelName);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.UserName);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox UserName;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Button createPlayerButton;
     }
