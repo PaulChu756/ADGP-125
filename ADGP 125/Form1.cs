@@ -27,8 +27,8 @@ namespace ADGP_125
         // pass info into serialize function we created
         private void createPlayerButton_Click(object sender, EventArgs e)
         {
-            currentUser = new UserInfo(UserName.Text);
-            loadSave.Serialize("UserName", currentUser);
+            currentUser = new UserInfo(UserName.Text, AnimalBox.SelectedItem.ToString());
+            loadSave.Serialize("UserInfo", currentUser);
 
             var gameForm = new Form2();
             this.Hide();
@@ -37,7 +37,7 @@ namespace ADGP_125
 
         private void Load()
         {
-            currentUser = loadSave.Deserialization("UserName");
+            currentUser = loadSave.Deserialization("UserInfo");
             UserName.Text = currentUser.Name;
         }
     }
