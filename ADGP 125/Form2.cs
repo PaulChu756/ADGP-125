@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace ADGP_125
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void createPlayerButton_Click(object sender, EventArgs e)
-        {
-            var gameForm = new Form2();
-            this.Hide();
-            gameForm.Show();
         }
     }
 }
