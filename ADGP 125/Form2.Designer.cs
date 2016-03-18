@@ -40,6 +40,12 @@
             this.expBar1 = new System.Windows.Forms.ProgressBar();
             this.expBar2 = new System.Windows.Forms.ProgressBar();
             this.expBar3 = new System.Windows.Forms.ProgressBar();
+            this.Enemy1 = new System.Windows.Forms.Label();
+            this.EnemyHealthBar1 = new System.Windows.Forms.ProgressBar();
+            this.Enemy3 = new System.Windows.Forms.Label();
+            this.EnemyHealthBar3 = new System.Windows.Forms.ProgressBar();
+            this.Enemy2 = new System.Windows.Forms.Label();
+            this.EnemyHealthBar2 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // healthBar1
@@ -153,11 +159,74 @@
             this.expBar3.Size = new System.Drawing.Size(292, 23);
             this.expBar3.TabIndex = 19;
             // 
+            // Enemy1
+            // 
+            this.Enemy1.AutoSize = true;
+            this.Enemy1.Location = new System.Drawing.Point(130, 38);
+            this.Enemy1.Name = "Enemy1";
+            this.Enemy1.Size = new System.Drawing.Size(35, 13);
+            this.Enemy1.TabIndex = 20;
+            this.Enemy1.Text = "Name";
+            // 
+            // EnemyHealthBar1
+            // 
+            this.EnemyHealthBar1.BackColor = System.Drawing.Color.Lime;
+            this.EnemyHealthBar1.ForeColor = System.Drawing.Color.Lime;
+            this.EnemyHealthBar1.Location = new System.Drawing.Point(12, 12);
+            this.EnemyHealthBar1.Name = "EnemyHealthBar1";
+            this.EnemyHealthBar1.Size = new System.Drawing.Size(292, 23);
+            this.EnemyHealthBar1.TabIndex = 21;
+            this.EnemyHealthBar1.Value = 100;
+            // 
+            // Enemy3
+            // 
+            this.Enemy3.AutoSize = true;
+            this.Enemy3.Location = new System.Drawing.Point(1414, 38);
+            this.Enemy3.Name = "Enemy3";
+            this.Enemy3.Size = new System.Drawing.Size(35, 13);
+            this.Enemy3.TabIndex = 22;
+            this.Enemy3.Text = "Name";
+            // 
+            // EnemyHealthBar3
+            // 
+            this.EnemyHealthBar3.BackColor = System.Drawing.Color.Lime;
+            this.EnemyHealthBar3.ForeColor = System.Drawing.Color.Lime;
+            this.EnemyHealthBar3.Location = new System.Drawing.Point(1296, 12);
+            this.EnemyHealthBar3.Name = "EnemyHealthBar3";
+            this.EnemyHealthBar3.Size = new System.Drawing.Size(292, 23);
+            this.EnemyHealthBar3.TabIndex = 23;
+            this.EnemyHealthBar3.Value = 100;
+            // 
+            // Enemy2
+            // 
+            this.Enemy2.AutoSize = true;
+            this.Enemy2.Location = new System.Drawing.Point(770, 38);
+            this.Enemy2.Name = "Enemy2";
+            this.Enemy2.Size = new System.Drawing.Size(35, 13);
+            this.Enemy2.TabIndex = 24;
+            this.Enemy2.Text = "Name";
+            // 
+            // EnemyHealthBar2
+            // 
+            this.EnemyHealthBar2.BackColor = System.Drawing.Color.Lime;
+            this.EnemyHealthBar2.ForeColor = System.Drawing.Color.Lime;
+            this.EnemyHealthBar2.Location = new System.Drawing.Point(652, 12);
+            this.EnemyHealthBar2.Name = "EnemyHealthBar2";
+            this.EnemyHealthBar2.Size = new System.Drawing.Size(292, 23);
+            this.EnemyHealthBar2.TabIndex = 25;
+            this.EnemyHealthBar2.Value = 100;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.Controls.Add(this.Enemy2);
+            this.Controls.Add(this.EnemyHealthBar2);
+            this.Controls.Add(this.Enemy3);
+            this.Controls.Add(this.EnemyHealthBar3);
+            this.Controls.Add(this.Enemy1);
+            this.Controls.Add(this.EnemyHealthBar1);
             this.Controls.Add(this.expBar3);
             this.Controls.Add(this.expBar2);
             this.Controls.Add(this.expBar1);
@@ -191,5 +260,11 @@
         private System.Windows.Forms.ProgressBar expBar1;
         private System.Windows.Forms.ProgressBar expBar2;
         private System.Windows.Forms.ProgressBar expBar3;
+        private System.Windows.Forms.Label Enemy1;
+        private System.Windows.Forms.ProgressBar EnemyHealthBar1;
+        private System.Windows.Forms.Label Enemy3;
+        private System.Windows.Forms.ProgressBar EnemyHealthBar3;
+        private System.Windows.Forms.Label Enemy2;
+        private System.Windows.Forms.ProgressBar EnemyHealthBar2;
     }
 }
