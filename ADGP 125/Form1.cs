@@ -39,6 +39,7 @@ namespace ADGP_125
         {
             currentUser = loadSave.Deserialization("UserInfo");
             UserName.Text = currentUser.Name;
+            AnimalBox.Text = currentUser.Animal;
         }
     }
 }

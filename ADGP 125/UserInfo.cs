@@ -10,7 +10,7 @@ namespace ADGP_125
     public class UserInfo
     {
         private string m_Name; // Name of player
-        private string m_AnimalType;
+        private string m_AnimalType; // Type of animal
 
         // calls from other class, to grab info/value in m_Name
         public string Name { get { return m_Name; } } 
