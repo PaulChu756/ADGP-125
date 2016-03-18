@@ -4,10 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ADGP_125
+public abstract class Singleton<T> where T : class, new() // where T : class, can only use class
 {
-    class Singleton
+    // abstract classes cannot be instantiate.
+    private static T _instance;
+    public static T instance
     {
-
+        // lazy instantiation... ^ What? I thought abstract doesn't let that happen
+      get
+        {
+            if(_instance == null) // if instance doesn't exit yet
+                _instance = new T();
+            
+            return _instance;
+        }
     }
 }
+

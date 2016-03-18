@@ -12,7 +12,7 @@ namespace ADGP_125
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             new Form1().Show();
             Application.Run();
