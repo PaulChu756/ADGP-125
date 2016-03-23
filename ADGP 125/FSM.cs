@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public delegate void callBack();
 
-namespace FSM
+namespace FiniteStateMachine
 {
     /// <summary>
     /// Making FSM Generic and not use void functions
