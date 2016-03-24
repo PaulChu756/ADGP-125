@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.healthBar1 = new System.Windows.Forms.ProgressBar();
             this.attackButton1 = new System.Windows.Forms.Button();
             this.name1 = new System.Windows.Forms.Label();
@@ -47,6 +46,7 @@
             this.EnemyHealthBar3 = new System.Windows.Forms.ProgressBar();
             this.Enemy2 = new System.Windows.Forms.Label();
             this.EnemyHealthBar2 = new System.Windows.Forms.ProgressBar();
+<<<<<<< HEAD
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.AnimalType3 = new System.Windows.Forms.Label();
             this.endButton3 = new System.Windows.Forms.Button();
@@ -59,6 +59,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+=======
+>>>>>>> origin/master
             this.SuspendLayout();
             // 
             // healthBar1
@@ -73,7 +75,11 @@
             // 
             // attackButton1
             // 
+<<<<<<< HEAD
             this.attackButton1.Location = new System.Drawing.Point(346, 797);
+=======
+            this.attackButton1.Location = new System.Drawing.Point(229, 807);
+>>>>>>> origin/master
             this.attackButton1.Name = "attackButton1";
             this.attackButton1.Size = new System.Drawing.Size(75, 23);
             this.attackButton1.TabIndex = 1;
@@ -83,7 +89,11 @@
             // name1
             // 
             this.name1.AutoSize = true;
+<<<<<<< HEAD
             this.name1.Location = new System.Drawing.Point(7, 802);
+=======
+            this.name1.Location = new System.Drawing.Point(19, 817);
+>>>>>>> origin/master
             this.name1.Name = "name1";
             this.name1.Size = new System.Drawing.Size(35, 13);
             this.name1.TabIndex = 2;
@@ -92,7 +102,11 @@
             // name2
             // 
             this.name2.AutoSize = true;
+<<<<<<< HEAD
             this.name2.Location = new System.Drawing.Point(608, 807);
+=======
+            this.name2.Location = new System.Drawing.Point(659, 817);
+>>>>>>> origin/master
             this.name2.Name = "name2";
             this.name2.Size = new System.Drawing.Size(35, 13);
             this.name2.TabIndex = 12;
@@ -100,7 +114,11 @@
             // 
             // attackButton2
             // 
+<<<<<<< HEAD
             this.attackButton2.Location = new System.Drawing.Point(950, 797);
+=======
+            this.attackButton2.Location = new System.Drawing.Point(869, 807);
+>>>>>>> origin/master
             this.attackButton2.Name = "attackButton2";
             this.attackButton2.Size = new System.Drawing.Size(75, 23);
             this.attackButton2.TabIndex = 11;
@@ -120,7 +138,11 @@
             // name3
             // 
             this.name3.AutoSize = true;
+<<<<<<< HEAD
             this.name3.Location = new System.Drawing.Point(1164, 802);
+=======
+            this.name3.Location = new System.Drawing.Point(1303, 817);
+>>>>>>> origin/master
             this.name3.Name = "name3";
             this.name3.Size = new System.Drawing.Size(35, 13);
             this.name3.TabIndex = 15;
@@ -128,7 +150,11 @@
             // 
             // attackButton3
             // 
+<<<<<<< HEAD
             this.attackButton3.Location = new System.Drawing.Point(1503, 797);
+=======
+            this.attackButton3.Location = new System.Drawing.Point(1513, 807);
+>>>>>>> origin/master
             this.attackButton3.Name = "attackButton3";
             this.attackButton3.Size = new System.Drawing.Size(75, 23);
             this.attackButton3.TabIndex = 14;
@@ -229,6 +255,7 @@
             this.EnemyHealthBar2.TabIndex = 25;
             this.EnemyHealthBar2.Value = 100;
             // 
+<<<<<<< HEAD
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
@@ -316,10 +343,13 @@
             this.pictureBox3.TabIndex = 34;
             this.pictureBox3.TabStop = false;
             // 
+=======
+>>>>>>> origin/master
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 862);
             this.Controls.Add(this.pictureBox3);
@@ -331,6 +361,9 @@
             this.Controls.Add(this.endButton3);
             this.Controls.Add(this.AnimalType3);
             this.Controls.Add(this.pictureBox2);
+=======
+            this.ClientSize = new System.Drawing.Size(1600, 900);
+>>>>>>> origin/master
             this.Controls.Add(this.Enemy2);
             this.Controls.Add(this.EnemyHealthBar2);
             this.Controls.Add(this.Enemy3);
@@ -352,9 +385,12 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+=======
+>>>>>>> origin/master
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,6 +416,7 @@
         private System.Windows.Forms.ProgressBar EnemyHealthBar3;
         private System.Windows.Forms.Label Enemy2;
         private System.Windows.Forms.ProgressBar EnemyHealthBar2;
+<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label AnimalType3;
         private System.Windows.Forms.Button endButton3;
@@ -389,5 +426,7 @@
         private System.Windows.Forms.Button endButton2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
+=======
+>>>>>>> origin/master
     }
 }
