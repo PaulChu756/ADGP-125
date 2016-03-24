@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.healthBar1 = new System.Windows.Forms.ProgressBar();
             this.attackButton1 = new System.Windows.Forms.Button();
             this.name1 = new System.Windows.Forms.Label();
@@ -47,14 +46,6 @@
             this.EnemyHealthBar3 = new System.Windows.Forms.ProgressBar();
             this.Enemy2 = new System.Windows.Forms.Label();
             this.EnemyHealthBar2 = new System.Windows.Forms.ProgressBar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.AnimalType3 = new System.Windows.Forms.Label();
-            this.endButton3 = new System.Windows.Forms.Button();
-            this.AnimalType1 = new System.Windows.Forms.Label();
-            this.AnimalType2 = new System.Windows.Forms.Label();
-            this.endButton1 = new System.Windows.Forms.Button();
-            this.endButton2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // healthBar1
@@ -69,7 +60,7 @@
             // 
             // attackButton1
             // 
-            this.attackButton1.Location = new System.Drawing.Point(229, 781);
+            this.attackButton1.Location = new System.Drawing.Point(229, 807);
             this.attackButton1.Name = "attackButton1";
             this.attackButton1.Size = new System.Drawing.Size(75, 23);
             this.attackButton1.TabIndex = 1;
@@ -79,7 +70,7 @@
             // name1
             // 
             this.name1.AutoSize = true;
-            this.name1.Location = new System.Drawing.Point(19, 797);
+            this.name1.Location = new System.Drawing.Point(19, 817);
             this.name1.Name = "name1";
             this.name1.Size = new System.Drawing.Size(35, 13);
             this.name1.TabIndex = 2;
@@ -88,7 +79,7 @@
             // name2
             // 
             this.name2.AutoSize = true;
-            this.name2.Location = new System.Drawing.Point(649, 797);
+            this.name2.Location = new System.Drawing.Point(659, 817);
             this.name2.Name = "name2";
             this.name2.Size = new System.Drawing.Size(35, 13);
             this.name2.TabIndex = 12;
@@ -96,7 +87,7 @@
             // 
             // attackButton2
             // 
-            this.attackButton2.Location = new System.Drawing.Point(869, 781);
+            this.attackButton2.Location = new System.Drawing.Point(869, 807);
             this.attackButton2.Name = "attackButton2";
             this.attackButton2.Size = new System.Drawing.Size(75, 23);
             this.attackButton2.TabIndex = 11;
@@ -116,7 +107,7 @@
             // name3
             // 
             this.name3.AutoSize = true;
-            this.name3.Location = new System.Drawing.Point(1293, 797);
+            this.name3.Location = new System.Drawing.Point(1303, 817);
             this.name3.Name = "name3";
             this.name3.Size = new System.Drawing.Size(35, 13);
             this.name3.TabIndex = 15;
@@ -124,7 +115,7 @@
             // 
             // attackButton3
             // 
-            this.attackButton3.Location = new System.Drawing.Point(1513, 781);
+            this.attackButton3.Location = new System.Drawing.Point(1513, 807);
             this.attackButton3.Name = "attackButton3";
             this.attackButton3.Size = new System.Drawing.Size(75, 23);
             this.attackButton3.TabIndex = 14;
@@ -225,84 +216,11 @@
             this.EnemyHealthBar2.TabIndex = 25;
             this.EnemyHealthBar2.Value = 100;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(690, 665);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(173, 168);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            // 
-            // AnimalType3
-            // 
-            this.AnimalType3.AutoSize = true;
-            this.AnimalType3.Location = new System.Drawing.Point(1293, 820);
-            this.AnimalType3.Name = "AnimalType3";
-            this.AnimalType3.Size = new System.Drawing.Size(38, 13);
-            this.AnimalType3.TabIndex = 27;
-            this.AnimalType3.Text = "Animal";
-            // 
-            // endButton3
-            // 
-            this.endButton3.Location = new System.Drawing.Point(1513, 810);
-            this.endButton3.Name = "endButton3";
-            this.endButton3.Size = new System.Drawing.Size(75, 23);
-            this.endButton3.TabIndex = 28;
-            this.endButton3.Text = "End Turn";
-            this.endButton3.UseVisualStyleBackColor = true;
-            // 
-            // AnimalType1
-            // 
-            this.AnimalType1.AutoSize = true;
-            this.AnimalType1.Location = new System.Drawing.Point(19, 820);
-            this.AnimalType1.Name = "AnimalType1";
-            this.AnimalType1.Size = new System.Drawing.Size(38, 13);
-            this.AnimalType1.TabIndex = 29;
-            this.AnimalType1.Text = "Animal";
-            // 
-            // AnimalType2
-            // 
-            this.AnimalType2.AutoSize = true;
-            this.AnimalType2.Location = new System.Drawing.Point(649, 820);
-            this.AnimalType2.Name = "AnimalType2";
-            this.AnimalType2.Size = new System.Drawing.Size(38, 13);
-            this.AnimalType2.TabIndex = 30;
-            this.AnimalType2.Text = "Animal";
-            // 
-            // endButton1
-            // 
-            this.endButton1.Location = new System.Drawing.Point(229, 810);
-            this.endButton1.Name = "endButton1";
-            this.endButton1.Size = new System.Drawing.Size(75, 23);
-            this.endButton1.TabIndex = 31;
-            this.endButton1.Text = "End Turn";
-            this.endButton1.UseVisualStyleBackColor = true;
-            // 
-            // endButton2
-            // 
-            this.endButton2.Location = new System.Drawing.Point(869, 810);
-            this.endButton2.Name = "endButton2";
-            this.endButton2.Size = new System.Drawing.Size(75, 23);
-            this.endButton2.TabIndex = 32;
-            this.endButton2.Text = "End Turn";
-            this.endButton2.UseVisualStyleBackColor = true;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
-            this.Controls.Add(this.endButton2);
-            this.Controls.Add(this.endButton1);
-            this.Controls.Add(this.AnimalType2);
-            this.Controls.Add(this.AnimalType1);
-            this.Controls.Add(this.endButton3);
-            this.Controls.Add(this.AnimalType3);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Enemy2);
             this.Controls.Add(this.EnemyHealthBar2);
             this.Controls.Add(this.Enemy3);
@@ -323,7 +241,6 @@
             this.Controls.Add(this.healthBar1);
             this.Name = "Form2";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -349,12 +266,5 @@
         private System.Windows.Forms.ProgressBar EnemyHealthBar3;
         private System.Windows.Forms.Label Enemy2;
         private System.Windows.Forms.ProgressBar EnemyHealthBar2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label AnimalType3;
-        private System.Windows.Forms.Button endButton3;
-        private System.Windows.Forms.Label AnimalType1;
-        private System.Windows.Forms.Label AnimalType2;
-        private System.Windows.Forms.Button endButton1;
-        private System.Windows.Forms.Button endButton2;
     }
 }
