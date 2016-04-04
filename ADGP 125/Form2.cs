@@ -21,5 +21,10 @@ namespace ADGP_125
         {
 
         }
+
+        private void Enemy1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
