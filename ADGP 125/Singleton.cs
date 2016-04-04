@@ -10,7 +10,6 @@ public abstract class Singleton<T> where T : class, new() // where T : class, ca
     private static T _instance;
     public static T instance
     {
-        // lazy instantiation... ^ What? I thought abstract doesn't let that happen
       get
         {
             if(_instance == null) // if instance doesn't exist yet
