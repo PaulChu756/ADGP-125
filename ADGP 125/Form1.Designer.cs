@@ -68,8 +68,8 @@
             "Panda",
             "Red Panda",
             "Fox",
-            "Brown Bear",
-            "Polar Bear",
+            "Fluffy Bear",
+            "Polor Bear",
             "Wolverine "});
             this.AnimalBox.Location = new System.Drawing.Point(34, 123);
             this.AnimalBox.Name = "AnimalBox";
@@ -97,7 +97,6 @@
             this.Controls.Add(this.UserName);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
