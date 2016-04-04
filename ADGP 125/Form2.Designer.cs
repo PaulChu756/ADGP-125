@@ -46,10 +46,7 @@
             this.EnemyHealthBar3 = new System.Windows.Forms.ProgressBar();
             this.Enemy2 = new System.Windows.Forms.Label();
             this.EnemyHealthBar2 = new System.Windows.Forms.ProgressBar();
-<<<<<<< HEAD
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.AnimalType3 = new System.Windows.Forms.Label();
             this.endButton3 = new System.Windows.Forms.Button();
@@ -72,12 +69,9 @@
             // 
             // attackButton1
             // 
-<<<<<<< HEAD
             this.attackButton1.Location = new System.Drawing.Point(346, 797);
             this.attackButton1.Location = new System.Drawing.Point(229, 807);
             this.attackButton1.Location = new System.Drawing.Point(229, 781);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.attackButton1.Location = new System.Drawing.Point(229, 781);
             this.attackButton1.Name = "attackButton1";
             this.attackButton1.Size = new System.Drawing.Size(75, 23);
@@ -88,12 +82,9 @@
             // name1
             // 
             this.name1.AutoSize = true;
-<<<<<<< HEAD
             this.name1.Location = new System.Drawing.Point(7, 802);
             this.name1.Location = new System.Drawing.Point(19, 817);
             this.name1.Location = new System.Drawing.Point(19, 797);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.name1.Location = new System.Drawing.Point(19, 797);
             this.name1.Name = "name1";
             this.name1.Size = new System.Drawing.Size(35, 13);
@@ -103,12 +94,9 @@
             // name2
             // 
             this.name2.AutoSize = true;
-<<<<<<< HEAD
             this.name2.Location = new System.Drawing.Point(608, 807);
             this.name2.Location = new System.Drawing.Point(659, 817);
             this.name2.Location = new System.Drawing.Point(649, 797);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.name2.Location = new System.Drawing.Point(649, 797);
             this.name2.Name = "name2";
             this.name2.Size = new System.Drawing.Size(35, 13);
@@ -117,12 +105,9 @@
             // 
             // attackButton2
             // 
-<<<<<<< HEAD
             this.attackButton2.Location = new System.Drawing.Point(950, 797);
             this.attackButton2.Location = new System.Drawing.Point(869, 807);
             this.attackButton2.Location = new System.Drawing.Point(869, 781);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.attackButton2.Location = new System.Drawing.Point(869, 781);
             this.attackButton2.Name = "attackButton2";
             this.attackButton2.Size = new System.Drawing.Size(75, 23);
@@ -143,12 +128,9 @@
             // name3
             // 
             this.name3.AutoSize = true;
-<<<<<<< HEAD
             this.name3.Location = new System.Drawing.Point(1164, 802);
             this.name3.Location = new System.Drawing.Point(1303, 817);
             this.name3.Location = new System.Drawing.Point(1293, 797);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.name3.Location = new System.Drawing.Point(1293, 797);
             this.name3.Name = "name3";
             this.name3.Size = new System.Drawing.Size(35, 13);
@@ -157,12 +139,9 @@
             // 
             // attackButton3
             // 
-<<<<<<< HEAD
             this.attackButton3.Location = new System.Drawing.Point(1503, 797);
             this.attackButton3.Location = new System.Drawing.Point(1513, 807);
             this.attackButton3.Location = new System.Drawing.Point(1513, 781);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.attackButton3.Location = new System.Drawing.Point(1513, 781);
             this.attackButton3.Name = "attackButton3";
             this.attackButton3.Size = new System.Drawing.Size(75, 23);
@@ -263,13 +242,6 @@
             this.EnemyHealthBar2.Size = new System.Drawing.Size(292, 23);
             this.EnemyHealthBar2.TabIndex = 25;
             this.EnemyHealthBar2.Value = 100;
-<<<<<<< HEAD
-=======
-            // 
-            // pictureBox1
-            // 
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(690, 665);
             this.pictureBox1.Name = "pictureBox1";
@@ -335,7 +307,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.endButton2);
@@ -344,11 +315,8 @@
             this.Controls.Add(this.AnimalType1);
             this.Controls.Add(this.endButton3);
             this.Controls.Add(this.AnimalType3);
-<<<<<<< HEAD
             this.Controls.Add(this.pictureBox2);
             this.ClientSize = new System.Drawing.Size(1600, 900);
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Enemy2);
             this.Controls.Add(this.EnemyHealthBar2);
@@ -396,10 +364,7 @@
         private System.Windows.Forms.ProgressBar EnemyHealthBar3;
         private System.Windows.Forms.Label Enemy2;
         private System.Windows.Forms.ProgressBar EnemyHealthBar2;
-<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox2;
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label AnimalType3;
         private System.Windows.Forms.Button endButton3;
@@ -407,9 +372,6 @@
         private System.Windows.Forms.Label AnimalType2;
         private System.Windows.Forms.Button endButton1;
         private System.Windows.Forms.Button endButton2;
-<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox3;
-=======
->>>>>>> parent of 7837c76... More Pictures/ spelling errors.
     }
 }
